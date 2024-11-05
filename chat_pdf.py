@@ -17,6 +17,12 @@ import streamlit as st
 import time
 import base64
 
+#This is for Streamlit cloud
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
 page_bg_img = """
 <style>
 [data-testid = "stAppViewContainer"] {
