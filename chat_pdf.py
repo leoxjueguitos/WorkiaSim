@@ -16,13 +16,14 @@ from langchain.memory import ConversationBufferMemory
 import streamlit as st
 import time
 import base64
-import chromadb
-import chromadb.config
 
 #This is for Streamlit cloud
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+import chromadb
+import chromadb.config
 
 
 page_bg_img = """
