@@ -16,6 +16,8 @@ from langchain.memory import ConversationBufferMemory
 import streamlit as st
 import time
 import base64
+import chromadb
+import chromadb.config
 
 #This is for Streamlit cloud
 __import__('pysqlite3')
