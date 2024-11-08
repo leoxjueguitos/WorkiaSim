@@ -1,4 +1,5 @@
 pymupdf==1.24.11
+pypdf
 pandas==2.2.2
 glob2==0.7
 pydantic
