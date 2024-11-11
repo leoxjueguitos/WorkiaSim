@@ -5,6 +5,7 @@ glob2==0.7
 pydantic
 langchain==0.3.2
 langchain-community==0.3.1
+langchain_community.embeddings.ollama
 streamlit==1.34.0 
 pysqlite3-binary
 chroma==0.2.0
